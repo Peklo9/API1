@@ -6,7 +6,7 @@ app.use(cors())
 
 app.use((req, res) =>{
     console.log('test')
-    res.send({test: 'hahaha'})
+    res.send({test: 'podatki testni'})
 
 })
 
