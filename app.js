@@ -8,7 +8,7 @@ app.use((req, res) =>{
 
 })
 
-const port = 3000
+port = process.env.PORT || 80
 
 app.listen(port, () => {
     console.log('port 3000')
